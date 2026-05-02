@@ -1,5 +1,5 @@
 # Binaries
-aria2-aio
+/aria2-aio
 *.exe
 
 # Data directory
