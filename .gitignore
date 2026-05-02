@@ -1,0 +1,21 @@
+# Binaries
+aria2-aio
+*.exe
+
+# Data directory
+data/
+
+# Frontend
+frontend/node_modules/
+ui/dist/
+
+# Go
+*.test
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store

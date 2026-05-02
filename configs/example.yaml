@@ -1,0 +1,29 @@
+# aria2-aio configuration
+
+data_dir: "./data"
+
+server:
+  host: "0.0.0.0"
+  port: 8080
+
+defaults:
+  rpc_port_range:
+    start: 6801
+    end: 6899
+  aria2_options:
+    max-concurrent-downloads: "5"
+    split: "5"
+    max-download-limit: "0"
+    max-upload-limit: "0"
+    continue: "true"
+    auto-file-renaming: "true"
+    disk-cache: "32M"
+  aria2c_path: ""
+
+task_tracker:
+  poll_interval: 2
+  max_history_per_instance: 0
+
+log:
+  level: "info"
+  format: "text"
